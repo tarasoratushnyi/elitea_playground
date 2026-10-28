@@ -1,6 +1,6 @@
 {
   "name": "itbox-playwright-tests",
   "private": true,
-  "scripts": {"test:e2e": "playwright test"},
+  "scripts": {"test:e2e": "playwright test", "test:bluetti": "playwright test tests/bluetti-200-v2.spec.ts"},
   "devDependencies": {"@playwright/test": "^1.50.0"}
 }
